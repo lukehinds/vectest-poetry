@@ -66,18 +66,19 @@ files = [
 
 [[package]]
 name = "sqlite-vec"
-version = "0.1.4a2"
+version = "0.1.6"
 description = ""
 optional = false
 python-versions = "*"
 files = [
-    {file = "sqlite_vec-0.1.4a2-py3-none-macosx_10_6_x86_64.whl", hash = "sha256:f50f8d84c0184a96cc9371ddf7666d146fc4dc9d5f5b7f329fe4c556aec6706a"},
-    {file = "sqlite_vec-0.1.4a2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:7111a813d7a77f10592422ae48a0391e1658c4ba5aa79608751c1a6c09808a12"},
-    {file = "sqlite_vec-0.1.4a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl", hash = "sha256:b188d1c7b033730e55725f1ec561fc6ba592fa324547d20468abcc9ac5b8bb14"},
-    {file = "sqlite_vec-0.1.4a2-py3-none-win_amd64.whl", hash = "sha256:0d29c159e1e642ec736beaa3b83be50b912faafc943cc4e2e4b191215ec777d9"},
+    {file = "sqlite_vec-0.1.6-py3-none-macosx_10_6_x86_64.whl", hash = "sha256:77491bcaa6d496f2acb5cc0d0ff0b8964434f141523c121e313f9a7d8088dee3"},
+    {file = "sqlite_vec-0.1.6-py3-none-macosx_11_0_arm64.whl", hash = "sha256:fdca35f7ee3243668a055255d4dee4dea7eed5a06da8cad409f89facf4595361"},
+    {file = "sqlite_vec-0.1.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7b0519d9cd96164cd2e08e8eed225197f9cd2f0be82cb04567692a0a4be02da3"},
+    {file = "sqlite_vec-0.1.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl", hash = "sha256:823b0493add80d7fe82ab0fe25df7c0703f4752941aee1c7b2b02cec9656cb24"},
+    {file = "sqlite_vec-0.1.6-py3-none-win_amd64.whl", hash = "sha256:c65bcfd90fa2f41f9000052bcb8bb75d38240b2dae49225389eca6c3136d3f0c"},
 ]
 
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.8"
-content-hash = "a3f3192bed1c1f6d5e7e4f92ba5caf04c5fafe1cd1cbef805e85b8a7d3b3b4f7"
+content-hash = "d0d0620ff4c1b31fad782de4704d8998c806ff4d2ad5ca863c052c37a7b59cc9"
