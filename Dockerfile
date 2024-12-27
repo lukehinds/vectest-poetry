@@ -18,7 +18,8 @@ COPY pyproject.toml poetry.lock /app/
 
 # Install dependencies
 RUN poetry config virtualenvs.create false && \
-    poetry install --no-dev
+    poetry install --only main -vvv && \
+    poetry cache list packages
 
 # -----------------------------
 # Runtime Stage
