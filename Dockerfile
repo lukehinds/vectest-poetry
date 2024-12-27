@@ -8,8 +8,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Install poetry
-RUN curl -sSL https://install.python-poetry.org | python3 -
+RUN pip install poetry==1.8.4 && rm -rf /root/.cache/pip
 
 # Set working directory
 WORKDIR /app
@@ -18,7 +17,8 @@ WORKDIR /app
 COPY pyproject.toml poetry.lock /app/
 
 # Install dependencies
-RUN poetry config virtualenvs.create false && poetry install --no-interaction
+RUN poetry config virtualenvs.create false && \
+    poetry install --no-dev
 
 # -----------------------------
 # Runtime Stage
